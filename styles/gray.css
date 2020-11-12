@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Pixel";
+    src: url("/Users/mikekopotov/Library/Fonts/Pixel_2.ttf");
+}
+
 body{
-    
+    background-color: #222;
+    font-family: "Pixel";
+    color: white;
 }
