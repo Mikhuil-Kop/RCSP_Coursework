@@ -111,8 +111,8 @@ body{
 .preview_name{
     position: absolute;
     bottom: 270px;
-    right: 50px;
-    left: 50px;
+    right: 100px;
+    left: 100px;
     text-align: center;
     font-size: 150%;
 }
