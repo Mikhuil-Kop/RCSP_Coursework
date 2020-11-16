@@ -93,7 +93,7 @@ body{
     position: absolute;
     width: 100%;
     top: 20px;
-    bottom: calc(120px + 25vh);
+    bottom: 350px;
 }
 
 .preview_character_image{
@@ -110,7 +110,7 @@ body{
 
 .preview_name{
     position: absolute;
-    bottom: calc(90px + 15vh);
+    bottom: 270px;
     right: 50px;
     left: 50px;
     text-align: center;
@@ -120,19 +120,19 @@ body{
 .preview_name_h{
     margin: -0px;
     color: #EEE;
-    font-size: calc(5pt + 17vh);
+    font-size: 190px;
 }
 
 .preview_name_losung{
-    margin: -7vh;
+    margin: -70px;
     color: #888;
-    font-size: 10vh;
+    font-size: 90px;
 }
 
 .preview_panel{
     position: absolute;
-    height: 80px;
-    bottom: 60px;/*Расстояние от иконок до низа превью*/
+    height: 150px;
+    bottom: 30px;/*Расстояние от иконок до низа превью*/
     right: 50px;
     left: 50px;
     text-align: center;
