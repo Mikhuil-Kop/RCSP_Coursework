@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    image-rendering: pixelated;
 }
 
 /*Общие элементы*/
@@ -67,11 +68,15 @@ body{
     background-color: #252525;
     background: linear-gradient(to top, #202020, #333333);
     border: 8px solid black;
+    
+    font-size: 40px;
+    vertical-align: middle;
+    color: #AAA;
 }
 
 /*Панель-превью робота*/
 .preview{
-    height: calc(100vh - 45px); /*Тут поменять правое число*/
+    height: calc(100vh - 60px); /*Тут поменять правое число*/
     min-height: 600px;
     position: relative;
     left: 0px;
