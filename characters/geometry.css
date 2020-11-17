@@ -160,6 +160,13 @@ body{
     margin: auto;
 }
 
+.info_header{
+    text-align: center;
+    font-size: 80px;
+    color: #BBB;
+    margin: 0px;
+}
+
 /*Нижняя панель с информацией*/
 .bottom{
     position: relative;

@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Pixel";
-    src: url("/Users/mikekopotov/Library/Fonts/Pixel_2.ttf");
+    src: url("../styles/PixelFont.ttf");
 }
 
 body{
