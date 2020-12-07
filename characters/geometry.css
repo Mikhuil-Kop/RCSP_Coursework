@@ -78,7 +78,7 @@ body{
 /*Панель-превью робота*/
 .preview{
     height: calc(100vh - 60px); /*Тут поменять правое число*/
-    min-height: 600px;
+    min-height: 800px;
     position: relative;
     left: 0px;
     right: 0px;
@@ -116,7 +116,7 @@ body{
 
 .preview_name{
     position: absolute;
-    bottom: 30vh;
+    bottom: 25vh;
     right: 100px;
     left: 100px;
     text-align: center;
@@ -124,15 +124,17 @@ body{
 }
 
 .preview_name_h{
-    margin: -0px;
+    text-align: center;
+    margin: -30px;
     color: #EEE;
-    font-size: 190px;/*max(190px, 15vh)*/;
+    font-size: 180px;/*max(190px, 15vh)*/;
 }
 
 .preview_name_losung{
-    margin: -70px;
+    text-align: center;
+    margin: -20px;
     color: #888;
-    font-size: 90px;/*max(90px, 10vh);*/
+    font-size: 80px;/*max(90px, 10vh);*/
 }
 
 .preview_panel{
@@ -148,7 +150,7 @@ body{
     height: 15vh;
 }
 
-/*Остальная информация о роботе*/
+/*Основная информация о роботе*/
 .info{
     position: relative;
     left: 0px;
@@ -169,33 +171,56 @@ body{
     padding: 20px;
 }
 
-.skill-image{
+.skill-block{
+    height: 200px;
+}
+
+.skill-block_image{
     height: 200px;
     width: 300px;
+    float: left;
+    margin-right: 20px;
 }
 
-/*Показатель параметра*/
-.param-window{
+.info_params-panel{
+    width: 100%;
+    float:  left;
+}
+
+.info_params-panel__left{
+    width: 60%;
+    float:  left;
+}
+
+.info_params-panel__right{
+    margin-top: 15px;
+    width: 30%;
+    width: calc(40% - 60px);
+    float: right;
+}
+
+/*Показатель параметра Доделать потом*/
+.param-element{
+    widows: 30%;
+}
+
+.param-element_block{
     
 }
 
-.param-window_block{
+.param-element_image{
     
 }
 
-.param-window_image{
+.param-element_bar{
     
 }
 
-.param-window_bar{
+.param-element_bar_fill{
     
 }
 
-.param-window_bar_filled{
-    
-}
-
-.param-window_bar_value{
+.param-element_bar_value{
     
 }
 

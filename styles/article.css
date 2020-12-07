@@ -16,6 +16,7 @@ body{
 }
 
 h1{
+    font-weight: normal;
     text-align: center;
     font-size: 70pt;
     color: #BBB;
@@ -23,13 +24,15 @@ h1{
 }
 
 h5{
+    font-weight: normal;
     text-align: left;
-    font-size: 150%;
+    font-size: 130%;
     color: #CCC;
     margin: 0px;
 }
 
 h6{
+    font-weight: normal;
     font-size: 130%;
     margin: 0px;
     margin-bottom: 10px;
@@ -44,27 +47,11 @@ p{
 }
 
 b{
+    font-weight: normal;
     color: #CCC;
 }
 
 .selection-block{
     margin: 15px;
     padding: 15px;
-}
-
-.horizontal-container{
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-}
-
-.horizontal-container > .contained{
-    flex-grow: 0;
-}
-
-.vertical-container{
-}
-
-.vertical-container > .contained{
-    flex-grow: 0;
 }
