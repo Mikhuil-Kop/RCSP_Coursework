@@ -1,6 +1,7 @@
 /*Конкретные элементы страницы*/
 body{
     background-color: #161616;
+    color: #888;
 }
 
 .header{
@@ -28,4 +29,24 @@ body{
 
 hr{
     background-color: #888;
+}
+
+h1{
+    color: #BBB;
+}
+
+h5{
+    color: #CCC;
+}
+
+b{
+    color: #CCC;
+}
+
+a{
+    color: #CCC;
+}
+
+a:hover{
+    color: #EEE;
 }

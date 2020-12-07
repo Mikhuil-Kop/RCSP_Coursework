@@ -6,7 +6,6 @@
 /*Конкретные элементы страницы*/
 body{
     font-family: "Pixel";
-    color: #888;
     font-size: 25pt;
     line-height: 0.7;
 }
@@ -19,15 +18,13 @@ h1{
     font-weight: normal;
     text-align: center;
     font-size: 70pt;
-    color: #BBB;
-    margin: 0px;
+    margin: 10px;
 }
 
 h5{
     font-weight: normal;
     text-align: left;
     font-size: 130%;
-    color: #CCC;
     margin: 0px;
 }
 
@@ -48,7 +45,10 @@ p{
 
 b{
     font-weight: normal;
-    color: #CCC;
+}
+
+a{
+    text-decoration: underline;
 }
 
 .selection-block{

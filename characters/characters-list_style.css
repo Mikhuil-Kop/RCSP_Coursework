@@ -1,0 +1,249 @@
+body{
+    margin: 0px;
+    image-rendering: pixelated;
+}
+
+/*Общие элементы*/
+.split-line{
+    height:8px;
+    border-width:0;
+    color:black;
+    background-color:black;
+    margin: 0px;
+}
+
+.background-bricks{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url(../images/bricks-background.png);
+    background-size: 14px 14px;
+    z-index: 0;
+}
+
+.shadow-linear--top{
+    position: absolute;
+    height: 400px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to top, #0000 60%, #0003);
+}
+
+.shadow-linear--bottom{
+    position: absolute;
+    height: 400px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(to bottom, #0000 60%, #0003);
+}
+
+.shadow-linear--right{
+    position: absolute;
+    width: 350px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(to right, #0000 60%, #0003);
+}
+
+.shadow-linear--left{
+    position: absolute;
+    width: 350px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: linear-gradient(to left, #0000 60%, #0003);
+}
+
+/*Верхняя панель*/
+.header{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 45px; /*Высота верхней линии. Также нужно поменять внизу*/
+    background-color: #252525;
+    background: linear-gradient(to top, #171717, #272727);
+    border: 8px solid black;
+    
+    font-size: 40px;
+    vertical-align: middle;
+    color: #AAA;
+}
+
+/*Панель-превью робота*/
+.preview{
+    height: calc(100vh - 60px); /*Тут поменять правое число*/
+    min-height: 800px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    background-color: #252525; 
+    background: radial-gradient(#222222, #0C0C0C);
+}
+
+.preview_up-shadow{
+    position: absolute;
+    top: 0px;
+    height: 10px;
+    left: 0px;
+    right: 0px;
+    background-color: #0006;
+}
+
+.preview_character{
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    bottom: 35vh;
+}
+
+.preview_character_image{
+    position: absolute;
+    align-content: center;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    
+    height: 70%;
+}
+
+.preview_name{
+    position: absolute;
+    bottom: 25vh;
+    right: 100px;
+    left: 100px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.preview_name_h{
+    text-align: center;
+    margin: -30px;
+    color: #EEE;
+    font-size: 180px;/*max(190px, 15vh)*/;
+}
+
+.preview_name_losung{
+    text-align: center;
+    margin: -20px;
+    color: #888;
+    font-size: 80px;/*max(90px, 10vh);*/
+}
+
+.preview_panel{
+    position: absolute;
+    height: 20vh;
+    bottom: 0vh;/*Расстояние от иконок до низа превью*/
+    right: 50px;
+    left: 50px;
+    text-align: center;
+}
+
+.preview_panel_image{
+    height: 15vh;
+}
+
+/*Основная информация о роботе*/
+.info{
+    position: relative;
+    left: 0px;
+    right: 0px;
+    min-height: 1000px;
+    background-color: #1C1C1C;
+    background: radial-gradient(#222222, #0C0C0C);
+}
+
+.info_center{
+    position: relative;
+    align-content: center;
+    left: 0px;
+    right: 0px;
+    width: min(1200px, 95%); /*Ширина центральной части с инфой.*/
+    z-index: 2;
+    margin: auto;
+    padding: 20px;
+}
+
+.skill-block{
+    height: 200px;
+}
+
+.skill-block_image{
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+.info_params-panel{
+    width: 100%;
+    float:  left;
+}
+
+.info_params-panel__left{
+    width: 60%;
+    float:  left;
+}
+
+.info_params-panel__right{
+    margin-top: 15px;
+    width: 30%;
+    width: calc(40% - 60px);
+    float: right;
+}
+
+/*Показатель параметра Доделать потом*/
+.param-element{
+    widows: 30%;
+}
+
+.param-element_block{
+    
+}
+
+.param-element_image{
+    
+}
+
+.param-element_bar{
+    
+}
+
+.param-element_bar_fill{
+    
+}
+
+.param-element_bar_value{
+    
+}
+
+/*Нижняя панель*/
+.bottom{
+    position: relative;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    font-size: 50%;
+}
+
+.bottom_text{
+    text-align: center;
+    vertical-align: middle;
+    color: #777;
+    font-size: 150%;
+    
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    max-width: 700px;
+}
