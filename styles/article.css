@@ -1,0 +1,16 @@
+/*
+@font-face {
+    font-family: "Pixel";
+    src: url("../styles/PixelFont.ttf");
+}
+
+body{
+    background-color: #161616;
+    font-family: "Pixel";
+    color: white;
+}
+*/
+
+body{
+    color: red;
+}
