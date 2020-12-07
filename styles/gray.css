@@ -1,10 +1,31 @@
-@font-face {
-    font-family: "Pixel";
-    src: url("../styles/PixelFont.ttf");
-}
-
+/*Конкретные элементы страницы*/
 body{
     background-color: #161616;
-    font-family: "Pixel";
-    color: white;
+}
+
+.header{
+    background-color: #252525;
+    background: linear-gradient(to top, #202020, #333333);
+    border: 8px solid black;
+}
+
+.bottom{
+    background-color: #222;
+    background: linear-gradient(#181818, #000);
+    border: 8px solid black;
+}
+
+.backgound-gradient{
+    background-color: #1C1C1C;
+    background: radial-gradient(#222222, #0C0C0C);
+}
+
+.dark{
+    background-color: #0005;
+}
+
+/*Шаблонные элементы страницы*/
+
+hr{
+    background-color: #888;
 }

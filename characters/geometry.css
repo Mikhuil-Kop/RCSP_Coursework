@@ -67,7 +67,7 @@ body{
     right: 0px;
     height: 45px; /*Высота верхней линии. Также нужно поменять внизу*/
     background-color: #252525;
-    background: linear-gradient(to top, #202020, #333333);
+    background: linear-gradient(to top, #171717, #272727);
     border: 8px solid black;
     
     font-size: 40px;
@@ -159,21 +159,45 @@ body{
 }
 
 .info_center{
+    position: relative;
     align-content: center;
     left: 0px;
     right: 0px;
     width: min(1200px, 95%); /*Ширина центральной части с инфой.*/
     z-index: 2;
     margin: auto;
+    padding: 20px;
 }
 
-.info_header{
-    text-align: center;
-    font-size: 80px;
-    color: #BBB;
-    margin: 0px;
+.skill-image{
+    height: 200px;
+    width: 300px;
 }
 
+/*Показатель параметра*/
+.param-window{
+    
+}
+
+.param-window_block{
+    
+}
+
+.param-window_image{
+    
+}
+
+.param-window_bar{
+    
+}
+
+.param-window_bar_filled{
+    
+}
+
+.param-window_bar_value{
+    
+}
 
 /*Нижняя панель*/
 .bottom{
@@ -181,9 +205,7 @@ body{
     left: 0px;
     right: 0px;
     height: 100px;
-    background-color: #222;
-    background: linear-gradient(#181818, #000);
-    border: 8px solid black;
+    font-size: 50%;
 }
 
 .bottom_text{

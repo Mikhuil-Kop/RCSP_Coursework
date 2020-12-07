@@ -12,53 +12,6 @@ body{
     margin: 0px;
 }
 
-.background-bricks{
-    position: absolute;
-    top:0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background-image: url(../images/bricks-background.png);
-    background-size: 14px 14px;
-    z-index: 0;
-}
-
-.shadow-linear--top{
-    position: absolute;
-    height: 400px;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    background: linear-gradient(to top, #0000 60%, #0003);
-}
-
-.shadow-linear--bottom{
-    position: absolute;
-    height: 400px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background: linear-gradient(to bottom, #0000 60%, #0003);
-}
-
-.shadow-linear--right{
-    position: absolute;
-    width: 350px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    background: linear-gradient(to right, #0000 60%, #0003);
-}
-
-.shadow-linear--left{
-    position: absolute;
-    width: 350px;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    background: linear-gradient(to left, #0000 60%, #0003);
-}
-
 /*Верхняя панель*/
 .header{
     position: relative;
@@ -66,114 +19,28 @@ body{
     left: 0px;
     right: 0px;
     height: 45px; /*Высота верхней линии. Также нужно поменять внизу*/
-    background-color: #252525;
-    background: linear-gradient(to top, #202020, #333333);
-    border: 8px solid black;
     
     font-size: 40px;
     vertical-align: middle;
-    color: #AAA;
 }
 
-/*Панель-превью робота*/
-.preview{
-    height: calc(100vh - 60px); /*Тут поменять правое число*/
-    min-height: 600px;
-    position: relative;
-    left: 0px;
-    right: 0px;
-    background-color: #252525; 
-    background: radial-gradient(#222222, #0C0C0C);
-}
-
-.preview_up-shadow{
-    position: absolute;
-    top: 0px;
-    height: 10px;
-    left: 0px;
-    right: 0px;
-    background-color: #0006;
-}
-
-.preview_character{
-    position: absolute;
-    width: 100%;
-    top: 20px;
-    bottom: 35vh;
-}
-
-.preview_character_image{
-    position: absolute;
-    align-content: center;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    
-    height: 70%;
-}
-
-.preview_name{
-    position: absolute;
-    bottom: 30vh;
-    right: 100px;
-    left: 100px;
-    text-align: center;
-    font-size: 150%;
-}
-
-.preview_name_h{
-    margin: -0px;
-    color: #EEE;
-    font-size: 190px;/*max(190px, 15vh)*/;
-}
-
-.preview_name_losung{
-    margin: -70px;
-    color: #888;
-    font-size: 90px;/*max(90px, 10vh);*/
-}
-
-.preview_panel{
-    position: absolute;
-    height: 20vh;
-    bottom: 0vh;/*Расстояние от иконок до низа превью*/
-    right: 50px;
-    left: 50px;
-    text-align: center;
-}
-
-.preview_panel_image{
-    height: 15vh;
-}
-
-/*Остальная информация о роботе*/
+/*Информация о сюжетном персонаже*/
 .info{
     position: relative;
     left: 0px;
     right: 0px;
-    min-height: 1000px;
-    background-color: #1C1C1C;
-    background: radial-gradient(#222222, #0C0C0C);
+    min-height: 100vh;
 }
 
 .info_center{
+    position: absolute;
     align-content: center;
     left: 0px;
     right: 0px;
     width: min(1200px, 95%); /*Ширина центральной части с инфой.*/
-    z-index: 2;
+    z-index: 40;
     margin: auto;
 }
-
-.info_header{
-    text-align: center;
-    font-size: 80px;
-    color: #BBB;
-    margin: 0px;
-}
-
 
 /*Нижняя панель*/
 .bottom{

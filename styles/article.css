@@ -1,16 +1,70 @@
-/*
 @font-face {
     font-family: "Pixel";
     src: url("../styles/PixelFont.ttf");
 }
 
+/*Конкретные элементы страницы*/
 body{
-    background-color: #161616;
     font-family: "Pixel";
-    color: white;
+    color: #888;
+    font-size: 25pt;
+    line-height: 0.7;
 }
-*/
 
-body{
-    color: red;
+.article{
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 70pt;
+    color: #BBB;
+    margin: 0px;
+}
+
+h5{
+    text-align: left;
+    font-size: 150%;
+    color: #CCC;
+    margin: 0px;
+}
+
+h6{
+    font-size: 130%;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: left;
+    font-size: 100%;
+    color: #888;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+b{
+    color: #CCC;
+}
+
+.selection-block{
+    margin: 15px;
+    padding: 15px;
+}
+
+.horizontal-container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.horizontal-container > .contained{
+    flex-grow: 0;
+}
+
+.vertical-container{
+}
+
+.vertical-container > .contained{
+    flex-grow: 0;
 }
